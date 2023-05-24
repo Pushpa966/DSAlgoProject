@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="DSALGOProject">
+	  <classes>
+			 <class name="Pageobjects.ValidloginLogoutpage"></class>
+			<class name="Pageobjects.Arrays"></class>
+			<class name="Pageobjects.LinkedListPage"></class> 
+			<class name="Pageobjects.Stack"></class>
+			<class name="Pageobjects.Queue"></class>
+			<class name="Pageobjects.TreePage"></class>
+			<class name="Pageobjects.Graphpage"></class>
+			<class name="Pageobjects.Datastructures"></class>
+			
+		</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

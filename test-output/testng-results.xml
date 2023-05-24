@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="16" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T10:14:18 EDT" name="Suite" finished-at="2023-05-24T10:15:15 EDT" duration-ms="57382">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T10:14:18 EDT" name="DSALGOProject" finished-at="2023-05-24T10:15:15 EDT" duration-ms="57382">
+      <class name="Pageobjects.Datastructures">
+        <test-method signature="rundatastructures()[pri:0, instance:Pageobjects.Datastructures@76b07f29]" started-at="2023-05-24T10:15:13 EDT" name="rundatastructures" finished-at="2023-05-24T10:15:15 EDT" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rundatastructures -->
+      </class> <!-- Pageobjects.Datastructures -->
+      <class name="Pageobjects.Graphpage">
+        <test-method signature="RunGraph()[pri:0, instance:Pageobjects.Graphpage@9cb8225]" started-at="2023-05-24T10:15:11 EDT" name="RunGraph" finished-at="2023-05-24T10:15:13 EDT" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunGraph -->
+      </class> <!-- Pageobjects.Graphpage -->
+      <class name="Pageobjects.TreePage">
+        <test-method signature="RunTree()[pri:0, instance:Pageobjects.TreePage@4149c063]" started-at="2023-05-24T10:15:06 EDT" name="RunTree" finished-at="2023-05-24T10:15:11 EDT" duration-ms="5119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTree -->
+      </class> <!-- Pageobjects.TreePage -->
+      <class name="Pageobjects.Arrays">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Pageobjects.Arrays@4e0ae11f]" started-at="2023-05-24T10:14:07 EDT" name="initialize" finished-at="2023-05-24T10:14:18 EDT" duration-ms="10864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="RunArray()[pri:0, instance:Pageobjects.Arrays@4e0ae11f]" started-at="2023-05-24T10:14:46 EDT" name="RunArray" finished-at="2023-05-24T10:14:56 EDT" duration-ms="9386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunArray -->
+      </class> <!-- Pageobjects.Arrays -->
+      <class name="Pageobjects.LinkedListPage">
+        <test-method signature="RunLinkedlist()[pri:0, instance:Pageobjects.LinkedListPage@238d68ff]" started-at="2023-05-24T10:14:56 EDT" name="RunLinkedlist" finished-at="2023-05-24T10:14:59 EDT" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunLinkedlist -->
+      </class> <!-- Pageobjects.LinkedListPage -->
+      <class name="Pageobjects.ValidloginLogoutpage">
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:Pageobjects.ValidloginLogoutpage@7098b907]" started-at="2023-05-24T10:14:18 EDT" name="TestLogin" data-provider="loginData" finished-at="2023-05-24T10:14:27 EDT" duration-ms="9020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:Pageobjects.ValidloginLogoutpage@7098b907]" started-at="2023-05-24T10:14:28 EDT" name="TestLogin" data-provider="loginData" finished-at="2023-05-24T10:14:37 EDT" duration-ms="9328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:Pageobjects.ValidloginLogoutpage@7098b907]" started-at="2023-05-24T10:14:37 EDT" name="TestLogin" data-provider="loginData" finished-at="2023-05-24T10:14:46 EDT" duration-ms="9170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[starninja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+      </class> <!-- Pageobjects.ValidloginLogoutpage -->
+      <class name="Pageobjects.Stack">
+        <test-method signature="RunStack()[pri:0, instance:Pageobjects.Stack@4b86805d]" started-at="2023-05-24T10:14:59 EDT" name="RunStack" finished-at="2023-05-24T10:15:02 EDT" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunStack -->
+      </class> <!-- Pageobjects.Stack -->
+      <class name="Pageobjects.Queue">
+        <test-method signature="RunQueue()[pri:0, instance:Pageobjects.Queue@5852c06f]" started-at="2023-05-24T10:15:02 EDT" name="RunQueue" finished-at="2023-05-24T10:15:06 EDT" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunQueue -->
+      </class> <!-- Pageobjects.Queue -->
+    </test> <!-- DSALGOProject -->
+  </suite> <!-- Suite -->
+</testng-results>
